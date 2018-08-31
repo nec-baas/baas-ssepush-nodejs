@@ -1,0 +1,42 @@
+{
+  "name": "@nec-baas/ssepush-node",
+  "version": "7.0.3",
+  "description": "BaaS SSEPush Client for Node.js",
+  "author": "NEC Coporation",
+  "license": "MIT",
+  "keywords": [
+    "nec",
+    "baas",
+    "push",
+    "sse",
+    "iot",
+    "mobile"
+  ],
+  "homepage": "https://github.com/nec-baas/baas-ssepush-nodejs",
+  "main": "lib/ssepush.js",
+  "files": [
+    "lib/ssepush.js",
+    "lib/ssepush.d.ts",
+    "lib/eventsource.js",
+    "example/*.js",
+    "example/*.template"
+  ],
+  "types": [
+    "lib/ssepush.d.ts"
+  ],
+  "scripts": {
+    "ts": "tsc",
+    "test": "mocha tests/*.js"
+  },
+  "dependencies": {
+    "@nec-baas/jssdk": "^7.0.2",
+    "@types/node": "^10.3.4",
+    "original": "^1.0.1",
+    "tunnel-fork": "^0.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^2.9.2"
+  }
+}

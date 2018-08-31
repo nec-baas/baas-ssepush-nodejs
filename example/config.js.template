@@ -1,0 +1,15 @@
+module.exports = {
+    tenant: '',
+    appId: '',
+    appKey: '',
+    baseUri: '',
+    debugMode: true,
+    /*
+    proxy: {
+        host: 'proxy.example.com',
+        port: 8080
+    }
+    */
+
+    deviceToken: '214cd7f5-700a-6739-2adcbba14833',
+};
