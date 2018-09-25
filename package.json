@@ -1,6 +1,6 @@
 {
   "name": "@nec-baas/ssepush-node",
-  "version": "7.0.3",
+  "version": "7.5.0",
   "description": "BaaS SSEPush Client for Node.js",
   "author": "NEC Coporation",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "test": "mocha tests/*.js"
   },
   "dependencies": {
-    "@nec-baas/jssdk": "^7.0.2",
+    "@nec-baas/jssdk": "^7.5.0",
     "@types/node": "^10.3.4",
     "original": "^1.0.1",
     "tunnel-fork": "^0.0.6"
